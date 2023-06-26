@@ -18,9 +18,9 @@ Note :Any Slave could be Mapper or Reducer but in this code Slave 5 is the Reduc
 	 
 5- Choose desired chunk number by changing id value from the  get request at client.go file then run client.go
 
-Note : id=0 will write all chunks after gathering them from slaves for first get type of get otherwise it will run map reduce to count number of nucleo basese in Genome.fasta File
-
-When connecting with other devices only change ip addresses from master and all slave files don't change port number only 192.168.1.5 part
+Note : id=0 will write all chunks after gathering them from slaves for first get type  otherwise it will run map reduce to count number of nucleo basese in Genome.fasta File
+if you wants to run the code on one device only change IP address from all files to your IP
+When connecting with other devices change ip addresses from master and all slave files don't change port number only 192.168.1.5 part
 "http://192.168.1.184:8091" ---> "http://192.168.43.207:8091"
 
 This Steps for first time running after that you can ignore step 2 because you had already made the chunks and 
