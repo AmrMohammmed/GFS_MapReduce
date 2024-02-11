@@ -1,8 +1,8 @@
 # GFS_MapReduce
 This is a simple implementation of Google File System architecture beside MapReduce Example ,Fault Tolerance and GO Routines 
 MapReduce is intended to count Number of Nulceo Bases A T C G from Genome.fasta File you can change this code from slaves with any desired function 
-Note :Any Slave could be Mapper or Reducer but in this code Slave 5 is the Reducer and slaves from 1 to 4 is Mappers but Slave 1 Will work as Reducer if SLave 5 was down although it will do mapping anyway
-### Don't forget to  watch the video or read the power point file
+Note :Any Slave could be Mapper or Reducer but in this code Slave 5 is the Reducer and slaves from 1 to 4 is Mappers but Slave 1 Will work as Reducer if SLave 5 was down although it will do mapping anyway.
+
 ## Steps to Run The Project
 0- Open 7 different terminals on VSCode IDE
 
@@ -29,6 +29,8 @@ change ***http://<i></i>192.168.1.184:8091*** to ***http://<i></i>192.168.43.207
 This Steps for first time running after that you can ignore step 2 because you had already made the chunks and 
 divided them over slaves so no need to run it again except if you deleted slaves.fasta files aka chunks
 
+### Note 
+Don't forget to  watch the video or the power point file
 
 ### References
 
