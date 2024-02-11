@@ -30,12 +30,12 @@ divided them over slaves so no need to run it again except if you deleted slaves
 ###References
 
 1- How to make Http server in go (Go tutorial in Arabic)
-	https://www.youtube.com/watch?v=3mfdXvsBwdk&list=PLpxoM9UzFN77FpoSegTEKPZ512YG3rdQv&index=32
+https://www.youtube.com/watch?v=3mfdXvsBwdk&list=PLpxoM9UzFN77FpoSegTEKPZ512YG3rdQv&index=32
  
 2- What is Map Reduce
-	https://www.youtube.com/watch?v=MAJ0aW5g17c&list=PLAXUYU7PbJhjoqdE-SGbBIl2jU-XBtZpP&index=2
+https://www.youtube.com/watch?v=MAJ0aW5g17c&list=PLAXUYU7PbJhjoqdE-SGbBIl2jU-XBtZpP&index=2
  
 3- What is a REST API (to understand the use of post and get requests)
-	https://www.youtube.com/watch?v=lsMQRaeKNDk
+https://www.youtube.com/watch?v=lsMQRaeKNDk
 
 
