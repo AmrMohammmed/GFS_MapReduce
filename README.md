@@ -23,13 +23,8 @@ if you wants to run the code on one device only change IP address from all files
 When connecting with other devices change ip addresses from master and all slave files don't change port number only this part of IPs 192.168.1.5
 
 Example :
-change 
+change [http://192.168.1.184:8091]() to [http://192.168.43.207:8091]()
 
-http://192.168.1.184:8091
-
-to 
-
-http://192.168.43.207:8091 
 
 This Steps for first time running after that you can ignore step 2 because you had already made the chunks and 
 divided them over slaves so no need to run it again except if you deleted slaves.fasta files aka chunks
