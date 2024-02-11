@@ -24,7 +24,7 @@ When connecting with other devices change ip addresses from master and all slave
 
 Example :
 change 
-"http://192.168.1.184:8091" to  >"http://192.168.43.207:8091"
+""http://192.168.1.184:8091"" to  ""http://192.168.43.207:8091":
 
 This Steps for first time running after that you can ignore step 2 because you had already made the chunks and 
 divided them over slaves so no need to run it again except if you deleted slaves.fasta files aka chunks
