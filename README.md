@@ -20,8 +20,22 @@ Note :Any Slave could be Mapper or Reducer but in this code Slave 5 is the Reduc
 
 Note : id=0 will write all chunks after gathering them from slaves for first get type  otherwise it will run map reduce to count number of nucleo basese in Genome.fasta File
 if you wants to run the code on one device only change IP address from all files to your IP
-When connecting with other devices change ip addresses from master and all slave files don't change port number only 192.168.1.5 part
+When connecting with other devices change ip addresses from master and all slave files don't change port number only this part of IPs 192.168.1.5
 "http://192.168.1.184:8091" ---> "http://192.168.43.207:8091"
 
 This Steps for first time running after that you can ignore step 2 because you had already made the chunks and 
 divided them over slaves so no need to run it again except if you deleted slaves.fasta files aka chunks
+
+
+###References
+
+1- How to make Http server in go (Go tutorial in Arabic)
+	https://www.youtube.com/watch?v=3mfdXvsBwdk&list=PLpxoM9UzFN77FpoSegTEKPZ512YG3rdQv&index=32
+ 
+2- What is Map Reduce
+	https://www.youtube.com/watch?v=MAJ0aW5g17c&list=PLAXUYU7PbJhjoqdE-SGbBIl2jU-XBtZpP&index=2
+ 
+3- What is a REST API (to understand the use of post and get requests)
+	https://www.youtube.com/watch?v=lsMQRaeKNDk
+
+
